@@ -22,9 +22,18 @@ git clone https://github.com/jeremyaldama/deepseek-docker-compose.git
 cd deepseek-docker-compose
 docker-compose up -d
 ```
+
+## Step 4: Install the model
+```
+docker-compose exec ollama /bin/ollama run deepseek-r1:7b
+```
+
 ### Now you can enter to http://public-ip:3000 port and create an account to start using DeepSeek!
 ![image](https://github.com/user-attachments/assets/00b265dc-0a0d-467b-b54b-627058ef8e1a)
 
 ### Fill the form to create an admin account
 ![image](https://github.com/user-attachments/assets/3f9655f1-0cf4-489c-88be-31fd5eeedbff)
+
+## You can install other models and change it here
+![image](https://github.com/user-attachments/assets/33ef638e-bba8-488d-b31a-15962bd769a0)
 
