@@ -19,7 +19,7 @@ git clone https://github.com/jeremyaldama/deepseek-docker-compose.git
 
 ## Step 3: Enter to the directory and run containers
 ```
-cd deepseek-docker
+cd deepseek-docker-compose
 docker-compose up -d
 ```
 ### Now you can enter to http://public-ip:3000 port and create an account to start using DeepSeek!
