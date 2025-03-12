@@ -7,8 +7,7 @@ services:
       - ollama:/root/.ollama
     ports:
       - "11434:11434"
-    # This command runs the deepseek model on startup.
-    command: ["run", "deepseek-r1:7b"] # Change this to the model you want to run.
+    command: ["/bin/sh", "-c", "until curl -s http://127.0.0.1:11434 >/dev/null; do echo 'Waiting for Ollama API...'; sleep 1; done; echo 'Ollama API is up. Running deepseek...'; ollama run deepseek-r1:7b"]
     restart: unless-stopped
 
   open-webui:
