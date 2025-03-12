@@ -8,7 +8,7 @@ services:
     ports:
       - "11434:11434"
     # This command runs the deepseek model on startup.
-    command: ["ollama", "run", "deepseek-r1:7b"] # Change this to the model you want to run.
+    command: ["run", "deepseek-r1:7b"] # Change this to the model you want to run.
     restart: unless-stopped
 
   open-webui:
