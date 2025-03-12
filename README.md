@@ -22,4 +22,4 @@ git clone https://github.com/jeremyaldama/deepseek-docker-compose.git
 cd deepseek-docker
 docker-compose up -d
 ```
-## Now you can enter to your public-ip:3000 port and create an account to start using DeepSeek!
+### Now you can enter to http://public-ip:3000 port and create an account to start using DeepSeek!
