@@ -8,7 +8,7 @@ sudo apt install docker.io docker-compose -y
 
 ## Step 2: Clone Repo
 ```
-git clone https://github.com/jeremyaldama/deepseek-docker.git
+git clone https://github.com/jeremyaldama/deepseek-docker-compose.git
 ```
 
 ## Step 3: Enter to the directory and run containers
